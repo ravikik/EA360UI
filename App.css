@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-body {
+  background-color: grey;
+}
+
+
+
+.spacer {
+  width: 100%;
+  height: 75px;
+}
+
+.spacer-button {
+  width: 100%;
+  height: 20px;
+}
+
+.bg {
+ background-color: grey;
+
+}
+
+
+
+
+
+.listqueue{
+
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  color: rgb(46, 34, 40);
+  
+}
+
+.listqueue td, 
+.listqueue th{
+  border: 1px solid #ddd;
+  padding: 0.5px;
+   
+
+  
+
+}
+
+.listqueue tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.listqueue tr:hover {
+  background-color: #ddd;
+}
+
+.listqueue th {
+
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  background-color: rgba(1, 38, 59, 0.767);
+  color: rgb(243, 227, 3);
+}
+
+.addbutton {
+
+  background-color:#282e30;
+	border-radius:8px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:rgb(56, 212, 186);
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:13px;
+	padding:5px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.addbutton :hover{
+
+  color:#e7983d;
+
+}
+
+.addbutton :active{
+
+  position:relative;
+  top:1px;
+  color:#e7983d;
+}
+
+.addqueue{
+
+  width: 100%;
+  height: 56px;
+  border-radius: 4px;
+  position: relative;
+  background-color: rgba(255,255,255,0.3);
+  transition: 0.3s all;
+}
+
+.form-group {
+
+  width: 50%;
+  height: 56px;
+  border-radius: 4px;
+  position: relative;
+  background-color: rgba(160, 19, 19, 0.3);
+  transition: 0.3s all;
+}
+
+
+.form-group:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
